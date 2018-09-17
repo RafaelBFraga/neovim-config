@@ -56,9 +56,17 @@ map zg/ <Plug>(incsearch-easymotion-stay)
 
 " Theme activation
 "let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"let g:space_vim_dark_background = 234
+colorscheme gruvbox
 set termguicolors
-colorscheme malokai
 set background=dark
+let g:gruvbox_contrast_dark = 'medium'
+"hi Visual ctermfg=17 guifg=#00005f
+"hi LineNr     ctermbg=NONE guibg=NONE
+"hi SignColumn ctermbg=NONE guibg=NONE
+
+" cntrlp
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Autocomplete
 let g:deoplete#enable_at_startup = 1
