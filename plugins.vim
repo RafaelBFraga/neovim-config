@@ -24,9 +24,9 @@ Plug 'haya14busa/incsearch.vim'
 Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'haya14busa/incsearch-easymotion.vim'
 Plug 'amerlyq/agn.vim'
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
-Plug 'elzr/vim-json'
+Plug 'kien/ctrlp.vim'
 " Languages support
+"Plug 'leafgarland/typescript-vim'
 Plug 'tpope/vim-haml', { 'for': 'haml' }
 Plug 'tpope/vim-cucumber', { 'for': 'cucumber' }
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
@@ -46,6 +46,9 @@ Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'honza/vim-snippets'
 " Themes
+Plug 'kenwheeler/glow-in-the-dark-gucci-shark-bites-vim'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'vim-scripts/asu1dark.vim'
 Plug 'liuchengxu/space-vim-dark'
 Plug 'morhetz/gruvbox'
 Plug 'cocopon/iceberg.vim'

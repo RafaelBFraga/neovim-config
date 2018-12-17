@@ -4,7 +4,7 @@ let mapleader = ','
 call plug#begin(s:path . '/plugged')
 exe 'source ' . s:path . '/plugins.vim'
 call plug#end()
-
+language en_US
 " Core Functions and Framework
 exe 'source ' . s:path . '/custom/plugged.vim'
 exe 'source ' . s:path . '/custom/janus.vim'
@@ -15,7 +15,7 @@ exe 'source ' . s:path . '/custom/mappings.vim'
 
 " Airline
 let g:airline_powerline_fonts =1
-let g:airline_theme = 'light'
+let g:airline_theme = 'sharkbites'
 
 "Javascript
 let g:javascript_plugin_flow = 1
@@ -55,12 +55,9 @@ map z? <Plug>(incsearch-easymotion-?)
 map zg/ <Plug>(incsearch-easymotion-stay)
 
 " Theme activation
-"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-"let g:space_vim_dark_background = 234
-colorscheme gruvbox
+colorscheme sharkbites
 set termguicolors
 set background=dark
-let g:gruvbox_contrast_dark = 'medium'
 "hi Visual ctermfg=17 guifg=#00005f
 "hi LineNr     ctermbg=NONE guibg=NONE
 "hi SignColumn ctermbg=NONE guibg=NONE
